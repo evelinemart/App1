@@ -108,14 +108,14 @@ namespace App1
 			// aapt resource value: 0x7f050006
 			public const int button9 = 2131034118;
 			
-			// aapt resource value: 0x7f050012
-			public const int buttonAdd = 2131034130;
+			// aapt resource value: 0x7f050013
+			public const int buttonAdd = 2131034131;
 			
 			// aapt resource value: 0x7f05001e
 			public const int buttonCalc = 2131034142;
 			
-			// aapt resource value: 0x7f050013
-			public const int buttonClear = 2131034131;
+			// aapt resource value: 0x7f050011
+			public const int buttonClear = 2131034129;
 			
 			// aapt resource value: 0x7f05001d
 			public const int buttonColor = 2131034141;
@@ -126,8 +126,8 @@ namespace App1
 			// aapt resource value: 0x7f05000b
 			public const int buttonMul = 2131034123;
 			
-			// aapt resource value: 0x7f050011
-			public const int buttonRes = 2131034129;
+			// aapt resource value: 0x7f050012
+			public const int buttonRes = 2131034130;
 			
 			// aapt resource value: 0x7f05000f
 			public const int buttonSub = 2131034127;

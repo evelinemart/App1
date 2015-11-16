@@ -42,6 +42,7 @@ namespace App1
             r.Progress = (color.R * 100) / 255;
             g.Progress = (color.G * 100) / 255;
             b.Progress = (color.B * 100) / 255;
+
             back.Click += BackToMain;
             r.ProgressChanged += UpdateColor;
         }
@@ -62,7 +63,14 @@ namespace App1
             bun.PutByteArray("newColor", new byte[] { color.R, color.G, color.B });
             var intent = new Intent(this, typeof(MainActivity));
             intent.PutExtra("newColor", bun);
-            StartActivity(intent);                        
+            StartActivity(intent);                              
         }
+
+        //protected override void OnStop()
+        //{
+        //    Dispose();
+        //    base.OnStop();
+
+        //}
     }
 }
